@@ -47,10 +47,13 @@ python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 ignore_missing_imports = true
+disallow_untyped_defs = true  # catch missing type annotations early
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
+log_cli = true  # show log output during test runs for easier debugging
+log_cli_level = "INFO"
 
 [build-system]
 requires = ["poetry-core"]
