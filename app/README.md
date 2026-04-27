@@ -108,4 +108,4 @@ GROQ_API_KEY=your-groq-api-key
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
 
-> **Note (personal):** I primarily use OpenAI + Financial Datasets for my own testing. The Groq key is optional if you only plan to use GPT-based models.
+> **Note (personal):** I've found that having at least `OPENAI_API_KEY` and `FINANCIAL_DATASETS_API_KEY` set is the minimum needed to get meaningful results out of the system. The Groq key is optional but speeds things up on cheaper models.
