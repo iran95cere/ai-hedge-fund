@@ -38,15 +38,6 @@ A running list of tickers I've personally run through the system, mostly to see 
 
 - `AAPL`, `MSFT`, `GOOGL` — big tech baseline
 - `BRK-B` — curious how Buffett agent handles analyzing itself
-- `NVDA` — strong disagreement expected between Taleb and Cathie Wood agents
-- `KO`, `JNJ` — classic Munger/Buffett territory
-
-## Disclaimer
-
-This project is for **educational and research purposes only**.
-
-- Not intended for real trading or investment
-- No investment advice or guarantees provided
-- Creator assumes no liability for financial losses
-- Consult a financial advisor for investment decisions
-- Past performance does not indicate future results
+- `NVDA` — strong disagreement expected between Taleb and Cathie Wood
+- `META` — interesting post-2022 turnaround story; value agents seem more receptive than expected
+- `COST` — added to see if Lynch agent picks up on the "boring but brilliant" angle
