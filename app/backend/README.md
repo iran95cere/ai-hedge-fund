@@ -57,7 +57,8 @@ To run the development server:
 cd app/backend
 
 # Start the FastAPI server with uvicorn
-poetry run uvicorn main:app --reload
+# Note: use --port 8001 if something else is already running on 8000
+poetry run uvicorn main:app --reload --port 8000
 ```
 
 This will start the FastAPI server with hot-reloading enabled.
@@ -97,4 +98,4 @@ This project is for **educational and research purposes only**.
 - Not intended for real trading or investment
 - No warranties or guarantees provided
 - Creator assumes no liability for financial losses
-- Consult a qualified financial advisor before making any investment decisions
+- Cons
