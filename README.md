@@ -32,6 +32,15 @@ Note: the system does not actually make any trades.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
+## Tickers I've Been Testing
+
+A running list of tickers I've personally run through the system, mostly to see how the value vs. growth agents diverge:
+
+- `AAPL`, `MSFT`, `GOOGL` — big tech baseline
+- `BRK-B` — curious how Buffett agent handles analyzing itself
+- `NVDA` — strong disagreement expected between Taleb and Cathie Wood agents
+- `KO`, `JNJ` — classic Munger/Buffett territory
+
 ## Disclaimer
 
 This project is for **educational and research purposes only**.
@@ -41,7 +50,3 @@ This project is for **educational and research purposes only**.
 - Creator assumes no liability for financial losses
 - Consult a financial advisor for investment decisions
 - Past performance does not indicate future results
-
-By using this software, you agree to use it solely for learning purposes.
-
-## Table of Con
