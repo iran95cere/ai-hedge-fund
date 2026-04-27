@@ -53,7 +53,7 @@ disallow_untyped_defs = true  # catch missing type annotations early
 testpaths = ["tests"]
 asyncio_mode = "auto"
 log_cli = true  # show log output during test runs for easier debugging
-log_cli_level = "INFO"
+log_cli_level = "DEBUG"  # bumped from INFO to DEBUG for more verbose output while learning the codebase
 
 [build-system]
 requires = ["poetry-core"]
