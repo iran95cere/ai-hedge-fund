@@ -28,7 +28,7 @@ This system employs several agents working together:
 
 Note: the system does not actually make any trades.
 
-> **Personal note:** I'm using this project to learn how multi-agent LLM systems work in practice. My main interest is in comparing the outputs of the value-oriented agents (Graham, Munger, Buffett) against the growth-oriented ones (Cathie Wood, Fisher) on the same ticker.
+> **Personal note:** I'm using this project to learn how multi-agent LLM systems work in practice. My main interest is in comparing the outputs of the value-oriented agents (Graham, Munger, Buffett) against the growth-oriented ones (Cathie Wood, Fisher) on the same ticker. I'm also curious how often the Taleb agent vetoes positions that all other agents agree on.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
@@ -44,11 +44,4 @@ This project is for **educational and research purposes only**.
 
 By using this software, you agree to use it solely for learning purposes.
 
-## Table of Contents
-- [How to Install](#how-to-install)
-- [How to Run](#how-to-run)
-  - [⌨️ Command Line Interface](#️-command-line-interface)
-  - [🖥️ Web Application](#️-web-application)
-- [How to Contribute](#how-to-contribute)
-- [Feature Requests](#feature-requests)
-- [License](#licens
+## Table of Con
