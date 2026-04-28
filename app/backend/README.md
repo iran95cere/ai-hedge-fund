@@ -66,6 +66,8 @@ This will start the FastAPI server with hot-reloading enabled.
 The API will be available at:
 - API Endpoint: http://localhost:8000
 - API Documentation: http://localhost:8000/docs
+- Interactive Swagger UI: http://localhost:8000/docs
+- ReDoc alternative docs: http://localhost:8000/redoc
 
 ## API Endpoints
 
@@ -91,11 +93,15 @@ app/backend/
 └── main.py                   # FastAPI application entry point
 ```
 
+## Troubleshooting
+
+- **Port already in use**: Run with `--port 8001` (or any free port) if 8000 is occupied.
+- **Missing API keys**: The server will start but hedge fund runs will fail without valid keys in `.env`.
+- **Poetry not found after install**: Restart your shell or run `source ~/.bashrc` / `source ~/.zshrc`.
+
 ## Disclaimer
 
 This project is for **educational and research purposes only**.
 
 - Not intended for real trading or investment
-- No warranties or guarantees provided
-- Creator assumes no liability for financial losses
-- Cons
+- No warranties
